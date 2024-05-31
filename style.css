@@ -1,0 +1,83 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+h1{
+    color: antiquewhite;
+    margin-top:1.5%;
+    font-size:50px;
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffcc;
+    text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px green,
+        0 0 30px green,
+        0 0 40px green,
+        0 0 55px green,
+        0 0 70px green;
+}
+.newbtn{
+    margin:1.5%;
+    font-size: medium;
+    background-color: lightcoral;
+    border-radius:3px;
+    padding:0.5rem;
+}
+.newbtn:hover{
+    box-shadow: 1px 2px 7px rgb(193, 129, 129);
+    font-size: large;
+    background-color: lightcoral;
+    border-radius:3px;
+}
+
+body{
+    text-align: center;
+    /* background-color: rgb(2, 2, 30); */
+    background-color: #222;
+}
+.container{
+    height:70vh;
+    margin-left:36%;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    border-radius:5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+   background-color: #fafadbb4;
+   box-shadow: 4px 5px 12px #888888;
+   font-size:8vmin;
+   color:#222;
+   margin:0.5%;
+}
+.box:hover{
+    background-color: #ffffcc;
+}
+
+.rstgame{
+     padding:0.5rem;
+    font-size: large;
+    border-radius:3px;
+    margin-top:-0.5px;
+}
+
+.hide{
+    display:none;
+}
+#msg{
+    font-size:xx-large;
+    color: #ffffcc;
+    font-family:Times, Times New Roman, serif;
+}
+@media only screen and (max-width: 1535px){
+  .container{
+    margin-left:20%;
+  }
+}
